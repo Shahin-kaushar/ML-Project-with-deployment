@@ -9,7 +9,7 @@ HYPHEN_E_DOT = '-e .' # we use this in requirements.txt so that it automatically
 #This list contains all pkgs to be installed
 def get_requirements(file_path:str) -> List[str]:
     """
-    This function will return the list of requirements
+    This function will return the list of requirements from here
     """
     requirements = []
     with open(file_path) as file_obj:
